@@ -3,7 +3,7 @@
 -export([get_access_token/2]).
 -export([send_message/4]).
 
--include("include/wechat.hrl").
+-include("../include/wechat.hrl").
 
 get_access_token(AppID, Secret) ->
     get_access_token(AppID, Secret, "client_credential").
